@@ -492,3 +492,12 @@ admin
 
 PORT=5000
 MONGO_URI=mongodb+srv://admin2:admin@cluster0.wjmgi90.mongodb.net/?appName=Cluster0
+
+mongodb+srv://sathurstiga_s:SVahi6@cluster0.uhi1cnv.mongodb.net/itemDB?retryWrites=true&w=majority
+
+
+if mongo db doesnt work---------------------------------server.js--------------------------------------------------------
+import dns from "dns";
+
+// Force Google DNS
+dns.setServers(["8.8.8.8", "8.8.4.4"]);
