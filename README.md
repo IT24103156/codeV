@@ -501,3 +501,9 @@ import dns from "dns";
 
 // Force Google DNS
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
+
+1. For Frontend (React / Vite apps)
+
+If you're using Vite:
+
+VITE_API_URL=https://your-backend-url
